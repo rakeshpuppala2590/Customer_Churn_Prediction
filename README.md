@@ -29,3 +29,18 @@ This project predicts customer churn for a bank using multiple machine learning 
    ```bash
    git clone https://github.com/yourusername/churn-prediction.git
    cd churn-prediction
+
+2. **Install the required dependencies**:
+
+```bash
+Copy code
+pip install -r requirements.txt
+
+3. **Set your OpenAI API key in your environment variables**:
+
+```bash
+Copy code
+export GROQ_API_KEY='your-api-key-here'
+Ensure you have the necessary model files (e.g., xgb_model.pkl, rf_model.pkl) in the project directory. If they are not available, you can either train your models using the code provided or upload pre-trained models.
+
+
